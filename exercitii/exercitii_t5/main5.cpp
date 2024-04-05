@@ -16,7 +16,7 @@ public:B(int i,int j):y(i),A(j){};
 int main() {
 
     A *p=new B(7,-3);
-    delete p;// se apl destr din A
+    delete p;
     return 0;
 }
 
